@@ -1,0 +1,10 @@
+{
+    "name": "SeqOSC.Unity",
+    "references": [
+      "SeqOSC"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
