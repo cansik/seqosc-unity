@@ -1,0 +1,12 @@
+{
+  "name": "ch.bildspur.seqosc",
+  "displayName": "SeqOSC Unity",
+  "description": "A very simple protocol that defines the format on how to store recordings of Open Sound Control (OSC) packets.",
+  "version": "1.0.0",
+  "unity": "2019.1",
+  "relatedPackages": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cansik/seqosc.git"
+  }
+}
