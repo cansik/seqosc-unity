@@ -7,14 +7,15 @@ using UnityEngine;
 
 namespace SeqOSC.Unity
 {
+    [AddComponentMenu("SeqOsc/SeqOsc Player")]
     public class UnitySeqOscPlayer : MonoBehaviour
     {
         private readonly OSCPlayer _player = new OSCPlayer();
-
-        public bool playOnStart = false;
+        
         public float speed = 1.0f;
         public string host = IPAddress.Loopback.ToString();
-        public int port = 8000;
+        public int port = 7800;
+        public bool playOnStart = false;
         public bool loop = false;
 
         public bool IsPlaying => _player.IsPlaying;
